@@ -1,5 +1,7 @@
 # Neuroevolution of Self-Interpretable Agents
 
+[![ArXiv Link](http://img.shields.io/badge/paper-arxiv.2003.08165-B31B1B.svg)](https://arxiv.org/abs/2003.08165)
+
 Train the agent to drive a car over proceduraly generated track (`CarRacing-v2`). The model consists of a self-attention applied to input signlas paired with tiny LSTM. Optimization is done using Covariance Matrix Adaptation Evolution Strategy (CMA-ES).
 
 The model and training algorithm presented here is an attempt to reproduce the result from the paper ["Neuroevolution of Self-Interpretable Agents"](https://arxiv.org/abs/2003.08165) by Yujin Tang, Duong Nguyen, and David Ha. The official code could be find [here](https://github.com/google/brain-tokyo-workshop/tree/master/AttentionAgent).
